@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680135517442",
+    "project_id": "wayfinder-nsda-3",
+    "storage_bucket": "wayfinder-nsda-3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680135517442:android:c319f2e70673f10b9e4e1b",
+        "android_client_info": {
+          "package_name": "com.example.wayfinder_nsda_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4dNTTyuIch3p5Tct2sXdgCbWzjeTAfsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
