@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        viewBinding = true
+    }
     namespace = "com.example.wayfinder_nsda_3"
     compileSdk = 34
 
@@ -45,4 +48,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    val nav_version = "2.8.2"
+
+    implementation("androidx.navigation:navigation-fragment-ktx:2.8.2:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:2.8.2:$nav_version")
+
+    implementation("de.hdodenhof:circleimageview:3.1.0")
 }
