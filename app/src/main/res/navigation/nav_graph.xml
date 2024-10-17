@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/friendsFragment"
-        android:name="org.freedu.findyourfriend.FriendsFragment"
+        android:name="com.example.wayfinder_nsda_3.FriendsFragment"
         android:label="fragment_friends2"
-        tools:layout="@layout/fragment_friends2" />
+        tools:layout="@layout/fragment_friends" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="org.freedu.findyourfriend.ProfileFragment"
+        android:name="com.example.wayfinder_nsda_3.ProfileFragment"
         android:label="fragment_profile2"
-        tools:layout="@layout/fragment_profile2" />
+        tools:layout="@layout/fragment_profile" />
 </navigation>
