@@ -3,8 +3,8 @@ package com.example.wayfinder_nsda_3.viewmodel
 import android.content.Context
 import android.widget.Toast
 import androidx.lifecycle.ViewModel
+import com.example.wayfinder_nsda_3.model.User
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.auth.User
 
 
 class FirestoreViewModel: ViewModel() {

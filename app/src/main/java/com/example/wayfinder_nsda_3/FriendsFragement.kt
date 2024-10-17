@@ -1,4 +1,4 @@
-package com.example.wayfinder_nsda_3.viewmodel
+package com.example.wayfinder_nsda_3
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -15,6 +15,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wayfinder_nsda_3.adapter.UserAdapter
 import com.example.wayfinder_nsda_3.databinding.FragmentFriendsBinding
 import com.example.wayfinder_nsda_3.view.MapsActivity
+import com.example.wayfinder_nsda_3.viewmodel.AuthenticationViewModel
+import com.example.wayfinder_nsda_3.viewmodel.FirestoreViewModel
+import com.example.wayfinder_nsda_3.viewmodel.LocationViewModel
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 

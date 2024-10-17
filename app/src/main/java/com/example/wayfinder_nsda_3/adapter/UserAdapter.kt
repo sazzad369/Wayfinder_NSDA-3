@@ -31,7 +31,7 @@ class UserAdapter(private var userList: List<User>):RecyclerView.Adapter<UserAda
         holder.bind(user)
 
     }
-    fun updateData(newList: List<com.google.firebase.firestore.auth.User>) {
+    fun updateData(newList: List<User>) {
         userList = newList
         notifyDataSetChanged()
     }

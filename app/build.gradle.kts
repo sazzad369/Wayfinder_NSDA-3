@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-
     alias(libs.plugins.google.android.libraries.mapsplatform.secrets.gradle.plugin)
     alias(libs.plugins.google.gms.google.services)
 }
@@ -59,8 +58,8 @@ dependencies {
 
     val nav_version = "2.8.2"
 
-    implementation("androidx.navigation:navigation-fragment-ktx:2.8.2:$nav_version")
-    implementation("androidx.navigation:navigation-ui-ktx:2.8.2:$nav_version")
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
     implementation("de.hdodenhof:circleimageview:3.1.0")
 }
