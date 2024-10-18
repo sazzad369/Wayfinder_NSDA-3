@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/shape_bg"
+    android:background="@color/my_primary"
+    android:paddingHorizontal="25dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -10,20 +11,22 @@
         android:id="@+id/profile_Image"
         android:layout_width="96dp"
         android:layout_height="96dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="44dp"
         android:src="@drawable/profile"
         app:civ_border_color="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/profileName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Md sazzad"
-        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/profile_Image"
         app:layout_constraintStart_toStartOf="@+id/profile_Image"
@@ -31,10 +34,11 @@
 
     <TextView
         android:id="@+id/profileEmail"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="sazzad@example.com"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/profileName"
         app:layout_constraintStart_toStartOf="@+id/profileName"
@@ -42,9 +46,10 @@
 
     <TextView
         android:id="@+id/location"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
         android:text="Dhaka, Bangladesh"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -7,7 +7,7 @@
     android:layout_marginHorizontal="10dp"
     app:cardElevation="15dp"
     app:cardCornerRadius="15dp"
-    android:backgroundTint="#41DAED"
+    android:backgroundTint="@color/my_secondary"
     android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -20,6 +20,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Display Name"
+            android:textStyle="bold"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,10 +30,11 @@
             android:id="@+id/emailTxt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="Email"
             android:textSize="20sp"
-            android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="@+id/displayNameTxt"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/displayNameTxt"
             app:layout_constraintTop_toBottomOf="@+id/displayNameTxt" />
 
@@ -40,7 +42,7 @@
             android:id="@+id/locationTxt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="10dp"
             android:text="Location"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
